@@ -1,0 +1,43 @@
+body{
+    background-color:skyblue ;
+    overflow: hidden;
+}
+#canvas1{
+    position: absolute;
+    border:3px solid white;
+    width: 1200px;
+    height: 700px;
+    transform:translate(-50%,-50%);
+    top:50%;
+    left:50%;
+}
+#collision_canvas{
+    position: absolute; 
+    transform:translate(-50%,-50%);
+    top:50%;
+    left:50%;
+    width: 1200px;
+    height: 700px;
+    opacity: 0;  
+}
+#score {
+    position: absolute;
+    border: 3px solid red;
+    transform: translate(-50%, -50%);
+    top: 6%;
+    left: 13%;
+    width: 100px;  
+    background-color: lightgray; 
+    padding: 10px;
+    text-align: center;
+    color: green;  
+}
+#image {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    color: brown;
+}
